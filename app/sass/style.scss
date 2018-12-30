@@ -6,7 +6,15 @@
 .coral-text{
     color: #fc635e;
 }
+h1{
+    font-family: 'Lato';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
 h2{
+    color: #868686;
     text-align: center;
     font-size: 28px;
     font-weight: 700;
@@ -19,6 +27,22 @@ h3{
     font-size: 20px;
     font-weight: 700;
 }
+h4 {
+    padding-left: 10px;
+    border-left: 10px solid #fc635e;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(134, 134, 134);
+    text-transform: uppercase;
+}
+  
+hr{
+    margin-top: 10px;;
+    background-color: rgb(173, 173, 173);
+    height: 1px;
+    border: none;
+
+}
 @import "fontawesome/fontawesome.scss";
 @import "fontawesome/solid.scss";
 @import "fontawesome/regular.scss";
@@ -26,3 +50,8 @@ h3{
 @import "fontawesome/v4-shims.scss";
 @import "top_section.scss";
 @import"sphere_section.scss";
+@import"join_section.scss";
+@import"process_section.scss";
+@import"works_section.scss";
+@import"portfolio_section.scss";
+@import"team_section.scss";

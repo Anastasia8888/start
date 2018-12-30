@@ -1,0 +1,42 @@
+.team_section{
+    padding-top: 60px;
+    color: #565656;
+    background-color: #f2f2f2;
+    h3{
+        margin-top: 20px;
+        font-size: 28px;
+        text-transform: none;
+
+    }
+    hr{
+        width: 142px;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+.team{
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.team__item{
+    margin-top: 70px;
+    max-width: 250px;
+}
+.team-item__contacts{
+    margin: 0 auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 150px;
+}
+.team-item__img{
+   margin: 0 auto;
+    width: 150px;
+    height: 170px;
+
+}

@@ -1,0 +1,7 @@
+.join-section {
+  background-image: url(../images/expand_bg.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat; }
+  .join-section h1 {
+    padding-top: 225px; }

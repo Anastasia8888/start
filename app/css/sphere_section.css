@@ -3,11 +3,7 @@
   color: #868686; }
   .sphere-section hr {
     margin-top: 15px;
-    width: 337px;
-    height: 1px;
-    background-color: #adadad;
-    text-align: center;
-    border: none; }
+    width: 337px; }
 
 .decription {
   margin: 0 auto;
@@ -35,10 +31,7 @@
   .sphere__item h3 {
     margin-top: 20px; }
   .sphere__item hr {
-    margin-top: 10px;
-    background-color: #adadad;
-    width: 58px;
-    height: 1px; }
+    width: 58px; }
 
 .sphere-item__img {
   display: -webkit-box;

@@ -1,0 +1,60 @@
+.landing {
+  padding-top: 60px;
+  background-color: #f2f2f2; }
+  .landing hr {
+    width: 222px; }
+
+.works__items {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.works-text__description {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #9e9898;
+  text-align: left;
+  line-height: 1.6; }
+
+.works-items__text {
+  max-width: 390px; }
+
+.works__details {
+  margin-top: 40px;
+  width: 167px;
+  height: 44px;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  border: none;
+  background-color: #fc635e;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  text-align: center; }
+
+.advertising {
+  padding-top: 70px; }
+  .advertising h4 {
+    padding-right: 10px;
+    text-align: right;
+    border-left: none;
+    border-right: 10px solid #fc635e; }
+  .advertising .works-text__description {
+    text-align: right; }
+  .advertising .works__details {
+    float: right; }
+
+.marketing-kit {
+  padding-top: 70px;
+  background-color: #f2f2f2; }

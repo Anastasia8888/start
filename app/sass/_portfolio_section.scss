@@ -1,0 +1,39 @@
+.portfolio{
+    padding-top: 60px;
+    hr{
+        width: 142px;
+    }
+    .works__details{
+        display: block;
+        margin: 20px auto;
+    }
+}
+.potfolio__menu{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    hr{
+        width: 100%;
+    }
+}
+.portfolio-menu__items{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.portfolio-menu__item{
+    color: #fc635e;
+    cursor: pointer;
+}
+.portfolio__img{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img{
+        margin-top: 15px;
+        cursor: pointer;
+        
+    }
+}

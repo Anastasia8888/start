@@ -6,7 +6,15 @@
 .coral-text {
   color: #fc635e; }
 
+h1 {
+  font-family: 'Lato';
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  color: white; }
+
 h2 {
+  color: #868686;
   text-align: center;
   font-size: 28px;
   font-weight: 700;
@@ -18,6 +26,20 @@ h3 {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 700; }
+
+h4 {
+  padding-left: 10px;
+  border-left: 10px solid #fc635e;
+  font-size: 28px;
+  font-weight: 700;
+  color: #868686;
+  text-transform: uppercase; }
+
+hr {
+  margin-top: 10px;
+  background-color: #adadad;
+  height: 1px;
+  border: none; }
 
 /*!
  * Font Awesome Free 5.4.1 by @fontawesome - https://fontawesome.com
@@ -6247,6 +6269,7 @@ readers do not read off random characters that represent icons */
 
 .btn-client {
   margin: 50px auto 200px auto;
+  cursor: pointer;
   display: block;
   width: 200px;
   height: 50px;
@@ -6259,7 +6282,8 @@ readers do not read off random characters that represent icons */
   font-weight: 300; }
 
 .btn-down {
-  margin-bottom: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
   text-align: center; }
 
 .sphere-section {
@@ -6267,11 +6291,7 @@ readers do not read off random characters that represent icons */
   color: #868686; }
   .sphere-section hr {
     margin-top: 15px;
-    width: 337px;
-    height: 1px;
-    background-color: #adadad;
-    text-align: center;
-    border: none; }
+    width: 337px; }
 
 .decription {
   margin: 0 auto;
@@ -6299,10 +6319,7 @@ readers do not read off random characters that represent icons */
   .sphere__item h3 {
     margin-top: 20px; }
   .sphere__item hr {
-    margin-top: 10px;
-    background-color: #adadad;
-    width: 58px;
-    height: 1px; }
+    width: 58px; }
 
 .sphere-item__img {
   display: -webkit-box;
@@ -6369,3 +6386,172 @@ readers do not read off random characters that represent icons */
 
 .adv__item-inner {
   background: #fc635e; }
+
+.join-section {
+  background-image: url(../images/expand_bg.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat; }
+  .join-section h1 {
+    padding-top: 225px; }
+
+.process {
+  padding-top: 50px;
+  padding-bottom: 700px; }
+  .process hr {
+    width: 183px; }
+
+.landing {
+  padding-top: 60px;
+  background-color: #f2f2f2; }
+  .landing hr {
+    width: 222px; }
+
+.works__items {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.works-text__description {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #9e9898;
+  text-align: left;
+  line-height: 1.6; }
+
+.works-items__text {
+  max-width: 390px; }
+
+.works__details {
+  margin-top: 40px;
+  width: 167px;
+  height: 44px;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  border: none;
+  background-color: #fc635e;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  text-align: center; }
+
+.advertising {
+  padding-top: 70px; }
+  .advertising h4 {
+    padding-right: 10px;
+    text-align: right;
+    border-left: none;
+    border-right: 10px solid #fc635e; }
+  .advertising .works-text__description {
+    text-align: right; }
+  .advertising .works__details {
+    float: right; }
+
+.marketing-kit {
+  padding-top: 70px;
+  background-color: #f2f2f2; }
+
+.portfolio {
+  padding-top: 60px; }
+  .portfolio hr {
+    width: 142px; }
+  .portfolio .works__details {
+    display: block;
+    margin: 20px auto; }
+
+.potfolio__menu {
+  margin-top: 40px;
+  margin-bottom: 50px; }
+  .potfolio__menu hr {
+    width: 100%; }
+
+.portfolio-menu__items {
+  margin: 20px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.portfolio-menu__item {
+  color: #fc635e;
+  cursor: pointer; }
+
+.portfolio__img {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+  .portfolio__img img {
+    margin-top: 15px;
+    cursor: pointer; }
+
+.team_section {
+  padding-top: 60px;
+  color: #565656;
+  background-color: #f2f2f2; }
+  .team_section h3 {
+    margin-top: 20px;
+    font-size: 28px;
+    text-transform: none; }
+  .team_section hr {
+    width: 142px; }
+  .team_section p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center; }
+
+.team {
+  padding-bottom: 75px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.team__item {
+  margin-top: 70px;
+  max-width: 250px; }
+
+.team-item__contacts {
+  margin: 0 auto;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 150px; }
+
+.team-item__img {
+  margin: 0 auto;
+  width: 150px;
+  height: 170px; }
